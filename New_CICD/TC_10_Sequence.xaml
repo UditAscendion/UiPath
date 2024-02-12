@@ -59,12 +59,13 @@
       <AssemblyReference>System.Private.Uri</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC_10_Sequence" sap:VirtualizedContainerService.HintSize="450,255.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC_10_Sequence" sap:VirtualizedContainerService.HintSize="450,387.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,144.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Commit&quot;]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Commit" />
   </Sequence>
 </Activity>
